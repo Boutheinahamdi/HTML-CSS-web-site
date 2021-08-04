@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: url(../projet-web/image/nature2.jpg);
+    background-size: cover;
+    height: auto;
+    font-family: "Roboto" sans-serif;
+ 
+}
+.container{
+    width: 800px;
+    height: 700px;
+    background-color: #ffff ;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 100px;
+    box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+}
+ .container p{
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 45px;
+     margin-bottom: 20px;
+     color:#564AA5 ;
+     letter-spacing: 1px;
+
+ }
+ .input  ,.area{
+     width: 100%;
+     padding:20px ;
+     box-sizing: border-box;
+     margin-bottom: 25px;
+     border: 2px solid #EE8C84 ;
+     font-size: 14px;
+     border-radius: 5px;
+     
+
+ }
+ .btn{
+    background-color: #fbc263 ;
+    color: #FFFFFF;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+        margin-left: 200px;
+    justify-content: center;
+ }
+ #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+}
+a{
+    text-decoration: none;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    
+}
+#navbar  ul{
+    list-style: none;
+    display: flex;
+
+}
+#navbar ul li a{
+    color: #FFFFFF;
+    padding: 1rem;
+
+}
+#navbar ul li a:hover
+{
+    background-color: #87F0F9;
+    border-radius: 5px;
+}
+.bg-dark{
+    background-color: #081845;
+    color:#FFFFFF;
+    opacity: 0.8;
+  
+}
